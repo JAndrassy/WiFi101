@@ -133,7 +133,7 @@ public:
 	uint32_t localIP();
 	uint32_t subnetMask();
 	uint32_t gatewayIP();
-	IPAddress dnsIP();
+	uint32_t dnsIP();
 	char* SSID();
 	int32_t RSSI();
 	uint8_t encryptionType();

@@ -772,7 +772,7 @@ uint32_t WiFiClass::gatewayIP()
 	return _gateway;
 }
 
-IPAddress WiFiClass::dnsIP()
+uint32_t WiFiClass::dnsIP()
 {
 	return _dnsip;
 }
