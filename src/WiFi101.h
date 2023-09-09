@@ -130,10 +130,10 @@ public:
 
 	uint8_t *macAddress(uint8_t *mac);
 
-	uint32_t localIP();
-	uint32_t subnetMask();
-	uint32_t gatewayIP();
-	uint32_t dnsIP();
+	IPAddress localIP();
+	IPAddress subnetMask();
+	IPAddress gatewayIP();
+	IPAddress dnsIP();
 	char* SSID();
 	int32_t RSSI();
 	uint8_t encryptionType();

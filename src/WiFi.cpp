@@ -757,22 +757,22 @@ uint8_t *WiFiClass::macAddress(uint8_t *mac)
 	return mac;
 }
 
-uint32_t WiFiClass::localIP()
+IPAddress WiFiClass::localIP()
 {
 	return _localip;
 }
 
-uint32_t WiFiClass::subnetMask()
+IPAddress WiFiClass::subnetMask()
 {
 	return _submask;
 }
 
-uint32_t WiFiClass::gatewayIP()
+IPAddress WiFiClass::gatewayIP()
 {
 	return _gateway;
 }
 
-uint32_t WiFiClass::dnsIP()
+IPAddress WiFiClass::dnsIP()
 {
 	return _dnsip;
 }
